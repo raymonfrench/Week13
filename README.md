@@ -89,7 +89,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the JUMP BOX_____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_71.218.230.92
+- _TODO: Add whitelisted IP addresses_71.ZZZ.XXX0.92 (My Private IP address)
 
 Machines within the network can only be accessed by SSH_____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_JUMP BOX 71.218.230.92
