@@ -2,7 +2,7 @@
 
 ## Automated ELK Stack Deployment
 
-## Automated ELK Stack Deployment
+<img src="https://github.com/raymonfrench/Week13/blob/main/Week%2013%20Network%20Diagram.drawio">
 
 The files in this repository were used to configure the network depicted below.
 
