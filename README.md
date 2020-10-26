@@ -93,11 +93,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name       	| Publicly Accessable 	| Allowed IP Addresses 	|
 |------------	|---------------------	|----------------------	|
-| ELK-Server 	| Log Management      	| 10.1.0.4             	|
+| ELK-Server 	| Log Management      	| 10.1.0.1-254         	|
 | Jump Box   	| Gateway             	| Admin Public IP      	|
-| VM 1       	| Web Server          	| 10.0.0.8             	|
-| VM 2       	| Web Server          	| 10.0.0.9             	|
-| VM 3       	| Web Server          	| 10.0.0.10            	|
+| VM 1       	| Web Server          	| 10.0.0.1-254         	|
+| VM 2       	| Web Server          	| 10.0.0.1-254         	|
+| VM 3       	| Web Server          	| 10.0.0.1-254         	|
 
 ### Elk Configuration
 
