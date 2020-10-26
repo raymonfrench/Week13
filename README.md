@@ -71,19 +71,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-+------------+----------------+------------+------------------+--+
-| Name       | Function       | IP ADDRESS | Operating System |  |
-+------------+----------------+------------+------------------+--+
-| ELK-Server | Log Management | 10.1.0.4   | Linux            |  |
-+------------+----------------+------------+------------------+--+
-| Jump Box   | Gateway        | 10.0.0.4   | Linux            |  |
-+------------+----------------+------------+------------------+--+
-| VM 1       | Web Server     | 10.0.0.8   | Linux            |  |
-+------------+----------------+------------+------------------+--+
-| VM 2       | Web Server     | 10.0.0.9   | Linux            |  |
-+------------+----------------+------------+------------------+--+
-| VM 3       | Web Server     | 10.0.0.10  | Linux            |  |
-+------------+----------------+------------+------------------+--+
+| Name       | Function       | IP ADDRESS | Operating System |
+|------------|----------------|------------|------------------|
+| ELK-Server | Log Management | 10.1.0.4   | Linux            |
+| Jump Box   | Gateway        | 10.0.0.4   | Linux            |
+| VM 1       | Web Server     | 10.0.0.8   | Linux            |
+| VM 2       | Web Server     | 10.0.0.9   | Linux            |
+| VM 3       | Web Server     | 10.0.0.10  | Linux            |
 
 ### Access Policies
 
@@ -118,8 +112,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-~/Documents/GitHub/Week12/docker_ps_output.png
+![alt text](https://github.com/raymonfrench/Week13/blob/main/docker_ps_output.PNG "RedTeam Net")
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
