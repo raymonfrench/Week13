@@ -4,6 +4,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
+![alt text](https://github.com/raymonfrench/Week13/blob/main/Network%20Diagram%20Week%2013.PNG "RedTeam Net")
+
 ~/Documents/GitHub/Week13/'
 Week 13 Network Diagram.drawio'
 
