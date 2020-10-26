@@ -91,11 +91,13 @@ Machines within the network can only be accessed by SSH_____.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name       	| Publicly Accessable 	| Allowed IP Addresses 	|
+|------------	|---------------------	|----------------------	|
+| ELK-Server 	| Log Management      	| 10.1.0.4             	|
+| Jump Box   	| Gateway             	| Admin Public IP      	|
+| VM 1       	| Web Server          	| 10.0.0.8             	|
+| VM 2       	| Web Server          	| 10.0.0.9             	|
+| VM 3       	| Web Server          	| 10.0.0.10            	|
 
 ### Elk Configuration
 
