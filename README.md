@@ -139,9 +139,21 @@ Filebeats collects logs and system file activity and sends changes to Kibana. If
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
+- Copy the __.yml___ file to /etc/ansible.
+- Update the hosts file to include...
+[webservers]
+    10.0.0.5
+    10.0.0.6
+    10.0.0.7
+   [elkservers]
+    10.1.0.4
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
+cd /etc/ansible
+ansible-playbook elk-playbook.yml
+ansible-playbook filebeat-playbook.yml
+ansible-playbook metricbeat-playbook.yml
+
+curl http://10.0.0.8:5601 (This command should print HTML to the console.)
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
